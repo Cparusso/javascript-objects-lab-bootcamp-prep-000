@@ -31,5 +31,7 @@ const recipes = {};
 function updateObjectWithKeyAndValue(object, key, value) {
   var newObj = Object.assign({}, object);
 
-  return newObj[key] = value;
+  newObj[key] = value;
+  
+  return newObj;
 }
